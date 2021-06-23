@@ -1,0 +1,16 @@
+2021-06-22 17:58:26,342im going to start my programs
+2021-06-22 17:58:26,624this is a first warning of my program so modify it
+2021-06-22 17:58:26,788this is the error message
+2021-06-22 17:58:27,05640
+2021-06-22 17:58:27,057error has occured
+2021-06-22 17:58:27,057division by zero
+Traceback (most recent call last):
+  File "<ipython-input-10-f526d801840d>", line 4, in test
+    div = a/b
+ZeroDivisionError: division by zero
+2021-06-22 17:58:27,518this is the start of function
+2021-06-22 17:58:27,681this is the start of function
+2021-06-22 17:58:27,948this is the start of function
+2021-06-22 17:58:28,152this is the start of function
+2021-06-22 18:00:01,026this is the start of function
+2021-06-22 18:00:01,401this is the start of function
