@@ -109,5 +109,3 @@ data2 = Data('testing2', 'txt','12/7/2021', None)
 print('hello world')
 
 
-
-
