@@ -1,0 +1,1 @@
+this is the first line . and trying the second line. the document name is testing1.txt.added lines : to verify the append method in class Data. 
