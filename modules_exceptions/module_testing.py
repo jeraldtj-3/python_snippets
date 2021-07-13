@@ -4,27 +4,23 @@
 Created on Mon Jul 12 21:56:53 2021
 @author: thomas
 """
-
+from test_directory import mod1, mod2, mod3
 import module1
+from module1 import get_course
 
 # for reloading the module 
-import imp 
-imp.reload(module1) 
+# import imp
 
+# imp.reload(module1)
 
-
-module1.addition(1,4)
-module1.power(3,3)
-
+module1.addition(1, 4)
+module1.power(3, 3)
 
 module1.get_course()
-module1.data
+print(module1.data)
 module1.get_msg()
 
-from module1 import get_course 
-
-get_course() 
-
+get_course()
 
 # assignment 
 # test directory 
@@ -32,41 +28,14 @@ get_course()
 # module2.py ( fn21, fn22, fn23) 
 # module3.py (fn31) 
 # inside same directory 
-    # import all  
+# import all
 # inside test there is test1 
 
 
-from test_directory import mod1,mod2, mod3 
-
-# calling functions 
+# calling functions
 mod1.fn3()
 mod2.fn23()
 mod3.fn31()
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
