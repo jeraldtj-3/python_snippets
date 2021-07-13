@@ -1,6 +1,5 @@
 
-
-
+# creating class Car 
 class Car():
     def __init__(a, m, y, ma, mo):
         a.milage = m 
@@ -16,7 +15,12 @@ class Car():
     def __str__(self):
         return "this is an object in the Car class"
 # creating an object     
-nano = Car(20, 2012, 232214, "asfo123") 
+nano = Car(20, 2012, 232214, "asfo123")
+
+print('nano = ', nano)
+print('milagee = ', nano.milage)
+
+
 
 
 class Student:
@@ -44,7 +48,7 @@ class Student:
             else:
                 return str(self.rollno) 
         except Exception as e : 
-            print('exception happend') 
+            print('exception happend',e)  
             
             
     def duration(self, current_date):
@@ -107,5 +111,6 @@ class Data:
 data1 = Data('testing1', 'txt', '12/7/2021', None)
 data2 = Data('testing2', 'txt','12/7/2021', None)
 print('hello world')
+
 
 

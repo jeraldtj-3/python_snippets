@@ -28,3 +28,4 @@ os.chdir(present)
 lg.shutdown() 
 
 
+print(func1(3,2)) 

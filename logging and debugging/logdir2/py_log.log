@@ -1,0 +1,8 @@
+INFO:root:you are running func1
+INFO:root:user inputs are [3, 2]
+INFO:root:the total number of args is 2
+INFO:root:output is 5
+INFO:root:you are running func1
+INFO:root:user inputs are [32, 63, 42, 2, 3, 2, 3]
+INFO:root:the total number of args is 7
+INFO:root:output is 147
