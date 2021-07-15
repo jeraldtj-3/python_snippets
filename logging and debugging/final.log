@@ -1,0 +1,23 @@
+2021-07-14 13:49:13,900:ERROR:__main__::Tried to divide by zero
+2021-07-14 13:50:01,415:ERROR:__main__::Tried to divide by zero
+2021-07-14 13:52:04,416:ERROR:__main__::Tried to divide by zero
+Traceback (most recent call last):
+  File "/home/thomas/Documents/github/Python-Notes/logging and debugging/final.py", line 57, in divide
+    result = x/y
+ZeroDivisionError: division by zero
+2021-07-14 13:54:24,746:ERROR:__main__::Tried to divide by zero
+Traceback (most recent call last):
+  File "/home/thomas/Documents/github/Python-Notes/logging and debugging/final.py", line 65, in divide
+    result = x/y
+ZeroDivisionError: division by zero
+2021-07-14 13:55:46,155:ERROR:__main__::Tried to divide by zero
+Traceback (most recent call last):
+  File "/home/thomas/Documents/github/Python-Notes/logging and debugging/final.py", line 65, in divide
+    result = x/y
+ZeroDivisionError: division by zero
+2021-07-14 13:57:14,403:ERROR:__main__::Tried to divide by zero
+2021-07-14 13:57:36,766:ERROR:__main__::Tried to divide by zero
+Traceback (most recent call last):
+  File "/home/thomas/Documents/github/Python-Notes/logging and debugging/final.py", line 65, in divide
+    result = x/y
+ZeroDivisionError: division by zero
