@@ -67,6 +67,7 @@ pawan = Student(["navin", "jay", "himanshu"], [123,123,132], 2021, "oops")
 
 
 '''
+Assignment question : 
 class - data 
 variables  - file name , file type , date, size 
 file_open ( create that specified file name / write sth in the file ) 
@@ -78,6 +79,8 @@ print('hi')
 
 
 import os 
+import logging 
+
 class Data:
     def __init__(self, file_name , file_type, date,size):
         self.file_name = file_name 
@@ -85,32 +88,55 @@ class Data:
         self.date = date 
         self.size = size
         self.file = f'{self.file_name}.{self.file_type}'
+        self.get_infologs('Data Added')
         
     def f_open(self):
         # creating a the specified file and entering data 
         f = open(self.file, 'wt') 
         content = input() 
         f.write(content)
-        f.close() 
+        f.close()
+        self.get_infologs('file created and closed')
         
     
     def f_read(self):
         # reading only 
-        f  = open(self.file, 'r') 
-        print(f.read())
-        f.close()
+        try:         
+            f  = open(self.file, 'r') 
+        except Exception as e:
+            self.get_infologs('exception',e)
+        finally:
+            f.close()
     
     def f_append(self):
-        if os.path.exists(self.file):
+        try:
             text_for_append = input() 
             f = open(self.file, 'a') 
             f.write(text_for_append)
-        else : 
-            print("file does not exist" )
+        except FileNotFoundError:
+            self.get_infologs('file doesnt exist') 
+        else:
+            self.get_infologs('appended information')
+        
+    
+    
+    def get_infologs(self,inform):
+        # adding the name for the logger 
+        logger = logging.getLogger(__name__)
+        # setting the logging level 
+        logger.setLevel(logging.INFO)
+        # Setting the logging format 
+        formatter = logging.Formatter('%(levelname)s:%(name)s:%(message)s')
+        # adding the file name 
+        file_handler = logging.FileHandler('employee.log')
+        #adding formatter to the log file 
+        file_handler.setFormatter(formatter) 
+        logger.addHandler(file_handler)
+        logger.info(inform) 
 
 data1 = Data('testing1', 'txt', '12/7/2021', None)
 data2 = Data('testing2', 'txt','12/7/2021', None)
-print('hello world')
+
 
 
 
