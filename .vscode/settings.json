@@ -1,4 +1,5 @@
 {
     "workbench.preferredLightColorTheme": "Default Dark+",
-    "workbench.colorCustomizations": {}
+    "workbench.colorCustomizations": {},
+    "python.linting.enabled": false
 }
