@@ -1,0 +1,58 @@
+http methods 
+get , post , 
+
+url = 
+ip address - 
+compilor - 
+
+dns -- 
+
+driver -- 
+
+
+###################
+Assignment : api 
+
+create url --- 
+-- uploading data using api 
+-- 
+-- api for creation of table , insertion into table 
+-- update into table 
+-- builk insertion into table 
+-- delete from a table -- 
+-- api for downloading data 
+
+--------------------------------------------------------------------------
+python -syllabus -- ineuron 
+
+1. python_basics 
+2. loops (for and while)
+3. conditionals 
+4. string /tuple/dictionary/ list/set
+5. functions 
+6. logging and debugging
+7. file operations 
+8. modules and exceptions 
+9. class and object 
+10. abstraction / inheritance /polymorphism 
+11. Reusing classes,functions and methods 
+12. databases (postgressql, mongodb, cassandra) 
+13. connecting python with postgress 
+14. connecting python with mongodb 
+15. connecting python with cassandra 
+16. flask 
+17. django 
+18. pandas full 
+19. numpy 
+20. python_argparsing 
+21. Regex 
+22. 
+
+
+
+# challenges 
+========================================
+1. gui for file automation using tinker 
+2. oops for working with databases in python 
+3. flask api for CRUD operations (mongodb, mysql,postgress, cassandra)
+4. 
