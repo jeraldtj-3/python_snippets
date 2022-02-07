@@ -1,8 +1,5 @@
 
 
-from readline import insert_text
-
-
 class ArraySort():
     def __init__(self,input_array):
         self.input_array = input_array 
@@ -25,9 +22,9 @@ class ArraySort():
 
     def __main__(self, sort_method):
         if sort_method == 'insertion_sort':
-            return self.insertion_sort(self.input_array) 
+            return self.insertionSort() 
         elif sort_method == 'merge_sort':
-            return self.merge_sort(self.input_array) 
+            return self.mergeSort() 
         else:
             return "sort method parameter error" 
 
