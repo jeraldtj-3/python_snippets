@@ -25,7 +25,7 @@ def authentication(user,passwd):
     password.send_keys(str(passwd))
     button = WebDriverWait(driver, 2).until(EC.element_to_be_clickable((By.CSS_SELECTOR, "button[type='submit']"))).click()
 
-authentication(user = "8592085238",passwd="amalabinoy" )
+authentication(user = "",passwd="" )
 
 # friends list page 
 driver.get("https://www.facebook.com/friends/list/")
