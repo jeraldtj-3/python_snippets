@@ -26,3 +26,6 @@ display_info('john',25)
 
 
 
+sudo pip install h5py 
+model.save_weights('model_name.h5')
+
